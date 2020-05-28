@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+.container{
+    max-width: 1140px;
+   
+    margin: auto;
+    border-bottom: 1px solid  grey;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+
+}
+header .row{
+    justify-content:  space-between;
+}
+header .brand-name{
+background-color: blue;
+
+}
+header .navbar{
+
+}
+header .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+
+}
+header .navbar ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 72px;
+    color: white;
+    font-weight: 600  ;
+}
+.home{
+    min-height: 100vh;
+    background-image: url("images/home.jpg");
+    background-size: cover;   
+    background-position: center;
+}
